@@ -1,13 +1,13 @@
 node{
     stage('Build'){
-        echo "Build stage"
+        echo "Build stage, again"
      }
 
      stage('Test'){
-        echo "Test stage"
+        echo "Test stage, again"
      }
 
      stage ('Deploy') {
-         echo "Im deploying now!"
+         echo "Im deploying now!, again"
      }
  }
