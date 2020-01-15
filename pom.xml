@@ -131,14 +131,6 @@
   <build>
     <plugins>
       <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.7.0</version>
-        <configuration>
-          <fork>true</fork>
-          <executable>/Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home/bin/javac</executable>
-        </configuration>
-      </plugin>
-      <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <executions>
